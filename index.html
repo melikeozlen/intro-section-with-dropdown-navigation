@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    
+  </style>
+</head>
+
+<body class="body">
+
+
+
+  <header>
+    <a href="#"><img src="images/logo.svg" alt=""></a>
+
+    <div class="header__left">
+      <input type="checkbox" name="" id="menu-bar">
+      <label class="label" for="menu-bar"></label>
+
+      <nav class="nav">
+        <div class="dropdown">
+          <button class="link hover-bold">Features <img class="arrow" src="images/icon-arrow-up.svg" alt=""> </button>
+          <div class="dropdown-menu">
+            <div class="list">
+              <img src="images/icon-todo.svg" alt="">
+              <a href="#">To Do List</a>
+            </div>
+
+            <div class="list">
+              <img src="images/icon-calendar.svg" alt="">
+              <a href="#"><a href="#">Calendar</a></a>
+            </div>
+            <div class="list">
+              <img src="images/icon-reminders.svg" alt="">
+              <a href="#">Reminders</a>
+            </div>
+            <div class="list">
+              <img src="images/icon-planning.svg" alt="">
+              <a href="#">Planning</a>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="link hover-bold">Company <img class="arrow" src="images/icon-arrow-up.svg" alt=""> </button>
+          <div class="dropdown-menu">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <a class="hover-bold" href="#">Carees</a>
+        <a class="hover-bold" href="#">About</a>
+      </nav>
+      <div class="user-act">
+        <button class="login"> Login</button>
+        <button class="register">Register</button>
+      </div>
+    </div>
+
+  </header>
+
+
+  <div class="container">
+    <div class="container-left">
+      <h1>
+        Make remote work
+      </h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+
+      </p>
+      <button>Learn more</button>
+      <div class="client">
+        <img class="client-img" src="images/client-databiz.svg" alt="" class="sponsor-img">
+        <img class="client-img" src="images/client-audiophile.svg" alt="" class="sponsor-img">
+        <img class="client-img" src="images/client-meet.svg" alt="" class="sponsor-img">
+        <img class="client-img" src="images/client-maker.svg" alt="" class="sponsor-img">
+      </div>
+    </div>
+    <div class="container-right">
+
+      <!-- <img class="image-hero-dektop" src="images/image-hero-desktop.png" alt="">  -->
+    </div>
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Melike Özlen</a>.
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
